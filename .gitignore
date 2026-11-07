@@ -1,12 +1,23 @@
-# DBeaver 工程文件（如果误当成工程打开会生成）
-.dbeaver/
-.project
-
-# 临时/日志/备份
-*.log
+# 编译产物
+*.class
+out/
+target/
+*.exe
+*.o
+*.obj
+# IDE
+.idea/
+*.iml
+.vscode/
+# 依赖/缓存
+node_modules/
+.opencode/
+# 系统临时
+.DS_Store
+Thumbs.db
 *.tmp
-*.bak
-
-# 数据库物理文件（绝对不要进仓库）
-*.ibd
-*.frm
+# 防手滑（密码/凭据绝不上传）
+*.cnf
+*.pem
+*密码*
+*credential*
